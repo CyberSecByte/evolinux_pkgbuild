@@ -1,9 +1,10 @@
 pkgname=xfce4-screenshooter
 pkgver=1.10.5
 pkgrel=1
+xver=1.10
 arch=('x86_64')
 depends=(libxfce4ui xfce4-panel libsoup)
-source=(https://archive.xfce.org/src/apps/$pkgname/1.9/$pkgname-$pkgver.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$pkgname/$xver/$pkgname-$pkgver.tar.bz2)
 build() {
 	cd $pkgname-$pkgver
 
