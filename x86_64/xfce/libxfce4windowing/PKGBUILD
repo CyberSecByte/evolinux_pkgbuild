@@ -3,7 +3,7 @@ pkgver=4.19.2
 xver=4.19
 pkgrel=1
 arch=('x86_64')
-depends=('gdk-pixbuf2' 'glib2' 'gtk3' 'libwnck' 'libx11' 'wayland')
+depends=('gdk-pixbuf' 'glib2' 'gtk+' 'libwnck' 'libx11' 'wayland')
 makedepends=('gobject-introspection' 'gtk-doc')
 source=(https://archive.xfce.org/src/xfce/$pkgname/$xver/$pkgname-$pkgver.tar.bz2)
 
