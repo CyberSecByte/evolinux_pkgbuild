@@ -1,7 +1,7 @@
 pkgname=xfce4-power-manager
-pkgver=4.18.0
-xver=4.18
-pkgrel=5
+pkgver=4.19.2
+xver=4.19
+pkgrel=1
 arch=('x86_64')
 depends=(libnotify upower xfce4-panel)
 source=(https://archive.xfce.org/src/xfce/$pkgname/$xver/$pkgname-$pkgver.tar.bz2

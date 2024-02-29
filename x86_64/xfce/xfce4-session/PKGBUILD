@@ -1,7 +1,7 @@
 pkgname=xfce4-session
-pkgver=4.18.0
-xver=4.18
-pkgrel=3
+pkgver=4.19.1
+xver=4.19
+pkgrel=1
 arch=('x86_64')
 depends=(libwnck libxfce4ui xfdesktop iceauth libsm xinit xfwm4 xorg-server libice)
 source=(https://archive.xfce.org/src/xfce/$pkgname/$xver/$pkgname-$pkgver.tar.bz2)

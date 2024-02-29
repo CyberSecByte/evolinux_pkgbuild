@@ -1,5 +1,5 @@
 pkgname=xfce4-screenshooter
-pkgver=1.9.7
+pkgver=1.10.5
 pkgrel=1
 arch=('x86_64')
 depends=(libxfce4ui xfce4-panel libsoup)

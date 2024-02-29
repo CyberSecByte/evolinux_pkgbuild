@@ -1,7 +1,7 @@
 pkgname=xfce4-panel
-pkgver=4.18.1
-xver=4.18
-pkgrel=2
+pkgver=4.19.2
+xver=4.19
+pkgrel=1
 arch=('x86_64')
 depends=(libxfce4ui gtk+ gsettings-desktop-schemas)
 source=(https://archive.xfce.org/src/xfce/$pkgname/$xver/$pkgname-$pkgver.tar.bz2)
