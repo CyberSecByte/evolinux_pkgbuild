@@ -9,6 +9,7 @@ source=(https://archive.xfce.org/src/xfce/$pkgname/$xver/$pkgname-$pkgver.tar.bz
 
 build() {
   cd $pkgname-$pkgver
+  pip install pygments
 
   ./configure \
     --prefix=/usr \
